@@ -51,9 +51,10 @@ public class FortuneTellerApp {
 			System.out.println("Please choose Red, Orange, Yellow, Green, Blue, Indigo, Violet");
 			color = input.nextLine();
 		}
-		String car = "Camry";
+		String car = "";
 		switch (color.toLowerCase()) {
 		case "red":
+			car = "Camry";
 			break;
 		case "orange":
 			car = "Accord";
