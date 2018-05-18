@@ -84,6 +84,9 @@ public class FortuneTellerApp {
 		input.nextLine();
 		String vacationHome = "";
 		switch (siblings) {
+		case 0:
+			vacationHome = "Aruba";
+			break;
 		case 1:
 			vacationHome = "Maui";
 			break;
@@ -95,7 +98,7 @@ public class FortuneTellerApp {
 			break;
 
 		default:
-			System.out.println("You are broke and will never have a vacation home, loser!");
+			vacationHome = "Nowhere cause you're broke";
 			break;
 		}
 
